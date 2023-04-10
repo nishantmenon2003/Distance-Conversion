@@ -15,3 +15,8 @@ what you want to convert it to.
 
 For the second tool: Enter 2 values and choose the units for both of those values.
 Then click on one of the arithmetic operations and the answer will be displayed in both units.
+
+# Assumptions
+ - REACT Downloaded
+ - Nodejs Downloaded
+ (To run the npm command I believe you will also need to run the ```npm install``` command) 
