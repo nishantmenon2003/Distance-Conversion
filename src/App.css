@@ -4,7 +4,7 @@
 
 .Conversion-header {
   background-color: #282c34;
-  min-height: 60vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,7 +15,7 @@
 
 .Arithmetic-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,6 +26,17 @@
 
 .TitleBar-header {
   background-color: #323b4d;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.bottom-header {
+  background-color: #282c34;
   min-height: 10vh;
   display: flex;
   flex-direction: column;

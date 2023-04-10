@@ -315,7 +315,7 @@ function App() {
                 bg="tomato"
                 color="white"
                 px={4}
-                h={10}
+                h={12}
                 id="Answer"
               >
                 Answer: {calculatedValue}
@@ -463,7 +463,7 @@ function App() {
                 bg="tomato"
                 color="white"
                 px={4}
-                h={10}
+                h={12}
                 id="Answer"
               >
                 Answer in km: {kmCalc}
@@ -474,7 +474,7 @@ function App() {
                 bg="tomato"
                 color="white"
                 px={4}
-                h={10}
+                h={12}
                 id="Answer"
               >
                 Answer in miles: {mileCalc}
@@ -482,6 +482,9 @@ function App() {
             </VStack>
           </ChakraProvider>
         </header>
+      </div>
+      <div classname="bottom">
+        <header className="bottom-header"></header>
       </div>
     </>
   );
