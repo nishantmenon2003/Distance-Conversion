@@ -236,6 +236,13 @@ function App() {
   // Code that is returned and displayed to webpage
   return (
     <>
+      <div className="TitleBar">
+        <header className="TitleBar-header">
+          <Text fontSize="30px" color="white" as="underline">
+            Nishant Menon's Distance Conversion Tool
+          </Text>
+        </header>
+      </div>
       {/* -------------------
       First Tool
       Converter for Miles and Kilometers
