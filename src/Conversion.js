@@ -12,26 +12,26 @@ import {
 const Conversion = () => {
   // Data values for first tool
   const [val, setVal] = React.useState("");
-  const [calculatedValue, setCalculatedValue] = React.useState("");
+  const [convertedValue, setConvertedValue] = React.useState("");
 
-  const calculatetoKM = () => {
+  const convertToKM = () => {
     if (isNaN(val)) {
       alert("Make sure your input is a valid number.");
     } else {
       let miles = parseFloat(val);
       let km = miles * 1.609344;
-      setCalculatedValue(km);
+      setConvertedValue(km);
     }
   };
 
   // Function to convert KM to Miles
-  const calculatetoMiles = () => {
+  const convertToMiles = () => {
     if (isNaN(val)) {
       alert("Make sure your input is a valid number.");
     } else {
       let km = parseFloat(val);
       let miles = km / 1.609344;
-      setCalculatedValue(miles);
+      setConvertedValue(miles);
     }
   };
 
@@ -79,7 +79,7 @@ const Conversion = () => {
                 colorScheme="blue"
                 variant="solid"
                 id="Button1"
-                onClick={calculatetoKM}
+                onClick={convertToKM}
               >
                 Convert to km
               </Button>
@@ -87,7 +87,7 @@ const Conversion = () => {
                 colorScheme="blue"
                 variant="solid"
                 id="Button1"
-                onClick={calculatetoMiles}
+                onClick={convertToMiles}
               >
                 Convert to miles
               </Button>
@@ -95,7 +95,7 @@ const Conversion = () => {
 
             {/* -------------------
               Answer Box:
-              "Answer: {calculatedValue}""
+              "Answer: {convertedValue}""
               -------------------- */}
             <Box
               as="button"
@@ -106,7 +106,7 @@ const Conversion = () => {
               h={12}
               id="Answer"
             >
-              Answer: {calculatedValue}
+              Answer: {convertedValue}
             </Box>
           </VStack>
         </ChakraProvider>

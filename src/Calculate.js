@@ -122,7 +122,7 @@ const Calculate = () => {
           Miles / Kilometers Arithmetic
         </Text>
         <Text fontSize="17px" color="white">
-          Enter two values and choose the unit for both of those values.
+          Enter two values and choose the unit for both of those values:
         </Text>
         <Text fontSize="17px" color="grey">
           Examples: (2, 3.3, 1000, 44.68...)
@@ -184,22 +184,7 @@ const Calculate = () => {
               >
                 - (Subtraction)
               </Button>
-              {/* <Button
-                colorScheme="blue"
-                variant="solid"
-                id="SubButton"
-                onClick={multiplication}
-              >
-                x (Multiplication)
-              </Button> */}
-              {/* <Button
-                colorScheme="blue"
-                variant="solid"
-                id="SubButton"
-                onClick={division}
-              >
-                / (Division)
-              </Button> */}
+            
             </ButtonGroup>
 
             {/* -------------------
